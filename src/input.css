@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+body * {
+  @apply transition-colors duration-1000;
+}
+
+.project-main {
+  @apply w-full brightness-125;
+  background-color: rgb(72, 66, 56);
+  color: #c6ccc9;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-sm dark:bg-dark dark:bg-opacity-50;
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.dark .navbar-fixed {
+  box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+.dark #about {
+  box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+.hover-opacity-animation {
+  @apply transition duration-500 hover:opacity-80;
+}
+
+.hamburger-line {
+  @apply my-2 block h-[2px] w-[30px] bg-dark dark:bg-white;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+#dark-toggle:checked ~ label div.toggle-circle {
+  @apply translate-x-3;
+}
+
+.alert {
+  background-color: rgb(72, 66, 56);
+  /* color: #aaa; */
+  color: #c6ccc9;
+  border-radius: 8px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.alert-index {
+  background-color: rgb(72, 66, 56);
+  /* color: #aaa; */
+  color: #c6ccc9;
+  border-radius: 8px;
+  width: 45%;
+  padding: 0.9rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+#tools {
+}

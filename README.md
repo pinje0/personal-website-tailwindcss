@@ -1,4 +1,4 @@
-# Note
+### Note
 Link to the website : https://yurak-twcss.vercel.app/ <br>
 or u can just click link on the top-right side
 
@@ -11,7 +11,7 @@ or u can just click link on the top-right side
 * ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 
-## Tailwind CSS (CSS Framework)
+### Tailwind CSS (CSS Framework)
 Website using Tailwind version:
 
 -   **v3.4.1**

@@ -1233,9 +1233,6 @@ body * {
   margin-bottom: 1rem;
 }
 
-#tools {
-}
-
 .hover\:border-primary:hover {
   --tw-border-opacity: 1;
   border-color: rgb(65 184 131 / var(--tw-border-opacity));
@@ -1249,11 +1246,6 @@ body * {
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(65 184 131 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:brightness-125:hover {

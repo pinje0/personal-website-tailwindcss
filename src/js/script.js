@@ -1,3 +1,6 @@
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 // Navbar Fixed
 window.onscroll = function () {
   const header = document.querySelector('header')

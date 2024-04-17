@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
+  font-family: monospace, 'Inter', sans-serif;
 }
 
 body * {

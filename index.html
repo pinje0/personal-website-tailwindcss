@@ -36,7 +36,7 @@
       }
     </script>
   </head>
-  <body ondragstart="return false;" ondrop="return false;">
+  <body>
     <!--* Header -->
     <header class="absolute left-0 top-0 z-10 flex w-full items-center bg-transparent">
       <!--* Navbar -->
@@ -342,10 +342,11 @@
                 src="https://github-readme-stats-pinje0.vercel.app/api/top-langs/?username=pinje0&layout=compact&theme=dark&count-private=true&langs_count=10"
                 alt="pinje0"
                 data-aos="fade-right"
+                draggable="false"
               />
             </a>
             <div id="tools" data-aos="fade-left" class="md:content-right container flex flex-wrap content-center gap-2 px-4 md:mt-2 md:flex md:w-1/2 md:flex-wrap lg:w-1/2">
-              <div class="flex flex-wrap gap-2">
+              <div class="flex flex-wrap gap-2" ondragstart="return false;" ondrop="return false;">
                 <img class="gallery-img object-cover" src="https://skillicons.dev/icons?i=html&perline=9&theme=dark" alt="html" />
                 <img class="gallery-img object-cover" src="https://skillicons.dev/icons?i=css&perline=9&theme=dark" alt="css" />
                 <img class="gallery-img object-cover" src="https://skillicons.dev/icons?i=js&perline=9&theme=dark" alt="js" />

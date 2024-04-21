@@ -1119,6 +1119,10 @@ video {
 body {
   /* font-family: 'Inter', sans-serif; */
   font-family: monospace, 'Inter', sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 body * {

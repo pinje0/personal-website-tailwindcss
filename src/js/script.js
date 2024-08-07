@@ -51,3 +51,7 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
 } else {
   darkToggle.checked = false
 }
+
+document.getElementById('clickable1').addEventListener('click', function () {
+  window.location.href = 'https://github.com/Toursantara'
+})
